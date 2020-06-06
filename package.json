@@ -1,0 +1,22 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "isrc/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raquelgraca/nlw.git"
+  },
+  "author": "RaquelGraca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raquelgraca/nlw/issues"
+  },
+  "homepage": "https://github.com/raquelgraca/nlw#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
