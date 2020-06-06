@@ -1,5 +1,5 @@
 #page-create-point {
-  width; 90%;
+  width: 90%;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -84,7 +84,7 @@ form button {
   width: 260px;
   height: 56px;
   border: 0;
-  margin-top: 10px;
+  margin-top: 48px;
   background-color: var(--btn-color);
   border-radius: 8px;
   color: white;
