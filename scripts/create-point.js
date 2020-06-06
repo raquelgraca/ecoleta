@@ -48,18 +48,18 @@ for (const item of itensToCollect) {
 }
 
 
-const collectedItems = document.querySelector("input[name=itens]")
+const collectedItems = document.querySelector("input[name=items]")
 
 let selectedItems =[]
 
 function handleSelectedItem(event) {
   const itemLi = event.target
   itemLi.classList.toggle("selected")
-  const itemId = itemLi.target.dataset.id
-}
+  const itemId = itemLi.dataset.id
 
 const alreadySelected = selectedItems.findIndex( item => {
-   item === itemId
+   const itemFound = item == itemId
+   return itemFound
  })
 
   if( alreadySelected >= 0 ) {
@@ -72,5 +72,5 @@ const alreadySelected = selectedItems.findIndex( item => {
   } else {
     selectedItems.push(itemId)
   }
-
-  collectedItems.value = selectedItems
+collectedItems.value = selectedItems
+}
