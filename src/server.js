@@ -1,4 +1,3 @@
-const PORT = process.env.PORT || 5000
 const express = require("express")
 const server = express()
 
@@ -88,4 +87,4 @@ server.get("/search", (req, res) => {
 })
 
 // ligar o servidor
-server.listen(3000)
+server.listen(5000)
