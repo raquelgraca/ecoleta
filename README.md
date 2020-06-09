@@ -7,10 +7,10 @@ Node version node v14.4.0
 "sqlite3": "^4.2.0"
 
 What is it
+
 Its an project for learning purpose
 Made during Next Level Week from Rocketseat
 
-Getting it
 Requirements:
 `Node JS
 npm or yarn
